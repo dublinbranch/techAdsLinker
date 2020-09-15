@@ -1,0 +1,33 @@
+{
+  "DB1": {
+    "Table1": {
+      "Column1": [
+        "ColExt1",
+        "Table2",
+        "DB2"
+      ],
+      "Column2": [
+        "ColExt2",
+        "Table3"
+        //if DB is omitted the actual one will be used
+      ]
+    },
+    "Table2": {
+      "Column1": [
+        "myCustomFunction"
+        // If there is only 1 element, this is a callable function , function template is in custom.functions.template.js
+        //you can not have lamba in json
+      ]
+    }
+  },
+  "DB2": {
+    "Table3": {
+      "Column4": [
+        "ColExt1",
+        "Table2",
+        "DB2"
+      ]
+    }
+  }
+}
+
